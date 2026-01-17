@@ -6,3 +6,9 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+function getObjectValue(array, value) {array.forEach((object) => {
+  console.log(object[value])
+});}
+
+getObjectValue(people, "name");
