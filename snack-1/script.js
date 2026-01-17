@@ -2,9 +2,9 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 
 // Stampa in console tutti i nomi
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
-function getNames() {names.forEach(element => {
+function getArrayElement(array) {array.forEach(element => {
     console.log(element);
 });
 };
 
-getNames();
+getArrayElement(names);
