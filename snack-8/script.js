@@ -21,3 +21,10 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+function getValueByName(array, fullName, key) {
+  const student = array.find(element => element.name === fullName);
+  return student[key];
+}
+
+console.log(getValueByName(students, "Mario Banfi", "class"));
